@@ -1,0 +1,95 @@
+
+*{  /* ignore,just my personnel preference*/
+    margin: 0;padding: 0;
+   
+}
+
+.body{
+    background-color: pink;
+    
+}
+.owrite{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+.logo{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 9vh;
+    border: 2px solid pink;
+    -webkit-text-stroke: 1px white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+
+
+/* .logo:hover{
+    color: red;
+} */
+button{  /* common css for all buttons*/
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    display: inline;
+    
+}
+button:hover{
+    background-color: pink;
+    border:1px solid white;
+    color: white;
+    cursor: pointer;
+    
+}
+select{  /* common css for all buttons*/
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    display: inline; 
+}
+select:hover{
+    background-color: pink;
+    border:1px solid white;
+    color: white;
+    cursor: pointer;
+    display: inline;
+}
+nav ul li{            /* Tabs like home ,shop etc*/
+    color: brown;
+    font-size: 1.7vw;
+    border: 1px white solid;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: white;
+    border-radius: 0.5vh;
+    
+}
+form{
+    display: inline;
+}
+nav ul li:hover{
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+footer{/* copyright*/
+            
+    color: brown;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+    
+}
+hr{
+    color: brown;
+}

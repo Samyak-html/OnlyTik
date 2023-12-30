@@ -1,0 +1,92 @@
+
+*{  /* ignore,just my personnel preference*/
+    margin: 0;padding: 0;
+   
+}
+
+.body{
+    background-color: black;
+    
+}
+.owrite{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+
+.logo{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 9vh;
+    border: 2px solid black;
+    -webkit-text-stroke: 1px white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+
+
+/* .logo:hover{
+    color: red;
+} */
+button{  /* common css for all buttons*/
+    background-color: orange;
+    border: 1px solid orange;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    display: inline;
+    
+}
+button:hover{
+    background-color: black;
+    border:1px solid orange;
+    color: orange;
+    cursor: pointer;
+    
+}
+select{  /* common css for all buttons*/
+    background-color: orange;
+    border: 1px solid orange;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    display: inline; 
+}
+select:hover{
+    background-color: black;
+    border:1px solid orange;
+    color: orange;
+    cursor: pointer;
+    display: inline;
+}
+nav ul li{            /* Tabs like home ,shop etc*/
+    color: black;
+    font-size: 1.7vw;
+    border: 1px black solid;
+    display: inline-block;
+    text-transform: capitalize;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    background-color: orange;
+    border-radius: 0.5vh;
+    
+}
+form{
+    display: inline;
+}
+nav ul li:hover{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+footer{/* copyright*/
+            
+    color: orange;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+    
+}
